@@ -279,6 +279,55 @@ section {
     color: var(--light-text);
 }
 
+.about-details {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease;
+}
+
+.detail-item:hover {
+    transform: translateX(5px);
+}
+
+.detail-item i {
+    margin-right: 10px;
+    color: var(--primary-color);
+    font-size: 18px;
+    width: 25px;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-5px);
+}
+
 /* Experience Section */
 .experience {
     padding: 100px 0;
