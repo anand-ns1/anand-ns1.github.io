@@ -1021,3 +1021,27 @@ footer {
         font-size: 1.8rem;
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px; /* Reduce padding for smaller screens */
+    }
+    
+    .btn {
+        padding: 10px 20px; /* Adjust button padding */
+        font-size: 14px; /* Smaller font size for buttons */
+    }
+    
+    nav ul {
+        flex-direction: column; /* Stack menu items vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+    
+    nav .menu-toggle {
+        display: block; /* Ensure menu toggle is visible */
+    }
+    
+    h1, h2, h3, h4 {
+        font-size: 1.5em; /* Adjust heading sizes */
+    }
+}
